@@ -15,3 +15,8 @@ genfscon sysfs /devices/soc/qpnp-rtc-8/rtc                  u:object_r:sysfs_rtc
 
 # Touchscreen
 genfscon proc /touchpanel	u:object_r:proc_touchpanel:s0
+
+# Parts
+genfscon sysfs /sys/kernel/sound_control/headphone_gain    u:object_r:sysfs_headgain:s0
+genfscon sysfs /sys/kernel/sound_control/mic_gain          u:object_r:sysfs_micgain:s0
+genfscon sysfs /sys/kernel/sound_control/speaker_gain      u:object_r:sysfs_speakergain:s0

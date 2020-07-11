@@ -22,3 +22,9 @@ type persist_sensors_file, file_type, vendor_persist_type;
 # Touchscreen
 type proc_touchpanel, fs_type, sysfs_type, proc_type;
 type touch_sysfs, fs_type, sysfs_type;
+
+# Parts
+type sysfs_kcal, fs_type, sysfs_type;
+type sysfs_headgain, sysfs_type, fs_type; 
+type sysfs_micgain, sysfs_type, fs_type;
+type sysfs_speakergain, sysfs_type, fs_type;
